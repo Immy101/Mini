@@ -1,4 +1,19 @@
-*{
-    padding: 0;
-    border: 0;
+body{
+    background: linear-gradient(rgb(200, 235, 235),white);
+    background-repeat: no-repeat;
+}
+ul{
+    font-style: bold;
+    text-decoration-line: none;
+}
+li{
+    list-style-type: none;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 50%;
+    height: 50%;
 }

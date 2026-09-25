@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="my.css">
 </head>
 <body>
-    <nav class="navigation">
+    <nav >
         <ul>
            <li><a href="home.html">home</a></li>
             <li><a href="about.html">about</a></li>
@@ -16,12 +16,14 @@
     </nav>
     <h1>Contact</h1>
     <p>Be sure to send me a simple message. I will create time to respond.</p>
-    <form action="/action_page.php">
+    <form id="myform">
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" ><br>
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" ><br>
-        <input type="submit" value="Submit">
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age" ><br>
+        <button type="submit" onclick="agecheck()">Submit</button>
     </form>
 
 </body>
