@@ -5,18 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="my.css">
+
 </head>
 <body>
-    <div class="navigation">
-        <nav>
-            <ul>
-                <li><a href="home.html">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </nav>
-    </div>
     <h1>My Portfoilo</h1>
+    <div>
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </div>
     <p>This is a mini-website showcasing my skills so hello world.</p>
     <p>If you would like to go to google, please click this link.
         <a href="https://www.google.com/">Google</a>
@@ -25,5 +24,9 @@
     <div class="gallery">
         <img src="images/maria.jpg" alt="my favourite band">
     </div>
+    <p id="demo"></p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me to display something cool</button>
+    <p id="first"></p>
+    <script src="script2.js"></script>
 </body>
 </html>
